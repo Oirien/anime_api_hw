@@ -11,6 +11,8 @@
     width: 100vw;
     z-index: 9999;
     top: 0rem;
+    box-shadow: 3px 0 5px #dadada;
+    border-bottom: 1px solid whitesmoke;
 }
 
 .header__text {

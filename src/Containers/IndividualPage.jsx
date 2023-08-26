@@ -15,7 +15,7 @@ const IndividualPage = () => {
 
     return (
         <>
-            <div>
+            <div className="container">
                 <h1 className="test">{anime.title_english}</h1>
             </div>
         </>
