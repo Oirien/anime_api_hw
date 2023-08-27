@@ -69,6 +69,14 @@ const IndividualPage = ({ favorites, setFavorites }) => {
             </div>
             <div className="container indivpage__synopsis">{anime.synopsis}</div>
             <div className="container indivpage__right">
+                <h1 className="indivpage__recommendation">
+                    {" "}
+                    See <span className="indivpage__recommendation--span">more</span> like{" "}
+                    {anime.title_english !== null || anime.title_english !== undefined ? anime.title_english : anime.title}
+                </h1>
+            </div>
+
+            <div className="container indivpage__right">
                 <Slider {...settings}>
                     {recommendations?.map((show, i) => (
                         <>

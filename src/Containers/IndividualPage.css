@@ -8,7 +8,7 @@
 }
 
 .bouncer {
-    border-left: 5px solid red;
+    border-left: 5px solid #fd1d53;
     padding-left: 0.75rem;
     line-height: 1.75rem;
 }
@@ -86,4 +86,12 @@
 
 .indivpage__right {
     padding-left: 13vw;
+}
+
+.indivpage__recommendation {
+    margin: 1rem 0 1rem 2.5rem;
+}
+
+.indivpage__recommendation--span {
+    color: #fd1d53;
 }
