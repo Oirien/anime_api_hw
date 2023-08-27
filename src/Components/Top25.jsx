@@ -6,7 +6,7 @@ const Top25 = ({ anime }) => {
         <>
             <div className="image-grid__full">
                 <ul className="image-grid-wrapper container">
-                    <h1> What's on your radar?</h1>
+                    <h1 className="bouncer"> What's on your radar?</h1>
                     <div className="image-grid-container">
                         {anime.map((show, i) => (
                             <li key={i} className="image-grid">

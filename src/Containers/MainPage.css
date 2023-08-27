@@ -1,14 +1,24 @@
 .image-grid-wrapper {
     margin-top: 3.5rem;
-    border: 2px solid;
+    /* border: 2px solid;
     border-width: 0 2px 0 2px;
     border-image-slice: 1;
-    border-image-source: linear-gradient(to bottom, #f9c80e, #ff4365, #2de2e6, #f99b1d, #f706cf, #2de2e6, #0d0221);
+    border-image-source: linear-gradient(to bottom, #f9c80e, #ff4365, #2de2e6, #f99b1d, #f706cf, #2de2e6, #0d0221); */
 }
 
 .image-grid-container {
     display: flex;
     flex-wrap: wrap;
+}
+.mainpage__bg--wrapper {
+    height: 80vh;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.33);
+    box-shadow: 2px 0px 16px black;
+}
+
+.mainpage__bg {
+    width: 100vw;
 }
 
 .image-grid {

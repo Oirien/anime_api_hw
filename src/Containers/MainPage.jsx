@@ -15,6 +15,9 @@ const MainPage = ({ sfw }) => {
 
     return (
         <>
+            <div className="mainpage__bg--wrapper">
+                <img className="mainpage__bg" src="https://images.hdqwalls.com/wallpapers/synthwave-night-sunset-anime-girl-4k-2j.jpg" />
+            </div>
             <Top25 anime={anime} />
         </>
     );
