@@ -23,7 +23,7 @@ const IndividualPage = () => {
             </div>
             <div className="indivpage__wrapper container">
                 <img className="indivpage__hero--poster" src={anime.images?.jpg?.large_image_url} />
-                <h1 className="indivpage__title bouncer">{anime.title_english}</h1>
+                <h1 className="indivpage__title bouncer">{anime.title_english ? anime.title_english : anime.title}</h1>
             </div>
             <div className="container indivpage__synopsis">{anime.synopsis}</div>
         </>

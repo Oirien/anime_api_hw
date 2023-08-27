@@ -39,6 +39,7 @@
     border-radius: 20px;
     border: 5px solid #2de2e6;
     height: 290px;
+    max-width: 210px;
     overflow: hidden;
     transition: 200ms;
 }
@@ -56,4 +57,12 @@
     text-align: center;
     font-weight: 300;
     margin-top: 1rem;
+}
+
+.top25--spike {
+    margin-bottom: 1rem;
+}
+
+.slick-active {
+    overflow: visible;
 }
