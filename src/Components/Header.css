@@ -18,6 +18,7 @@
 .header__text {
     max-height: 1rem;
     margin-bottom: 0.5rem;
+    font-weight: 600;
 }
 
 .logo {
@@ -27,5 +28,9 @@
 
 .logo-span {
     font-weight: 600;
+    color: rgb(253, 29, 83);
+}
+.favorites__header {
+    font-size: larger;
     color: rgb(253, 29, 83);
 }

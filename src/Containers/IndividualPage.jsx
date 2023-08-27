@@ -39,7 +39,7 @@ const IndividualPage = ({ favorites, setFavorites }) => {
                 <img className="indivpage__hero--bg" src={anime.images?.jpg?.large_image_url} />
             </div>
             <div>
-                <h3 className="favorite__button" onClick={() => setFavorites(...favorites, anime)}>
+                <h3 className="favorite__button" onClick={() => setFavorites([...favorites, anime])}>
                     Add to Favorites
                 </h3>
             </div>

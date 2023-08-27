@@ -53,9 +53,11 @@
 }
 
 .image-title {
-    max-width: inherit;
+    max-width: 210px;
     text-align: center;
     font-weight: 300;
+    color: whitesmoke;
+    position: relative;
     margin-top: 1rem;
 }
 
@@ -65,4 +67,8 @@
 
 .slick-active {
     overflow: visible;
+}
+
+.top__spacing {
+    margin-top: 5rem;
 }
