@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import "./Header.css";
 import { Link, Outlet } from "react-router-dom";
 import SFWToggle from "./SFWToggle";
+import CurrentlyAiringToggle from "./CurrentlyAiringToggle";
 
-const Header = ({ sfw, setSfw }) => {
+const Header = ({ sfw, setSfw, airing, setAiring }) => {
     return (
         <>
             <nav className="header-full">
@@ -16,9 +17,10 @@ const Header = ({ sfw, setSfw }) => {
                     <li className="header__text">
                         <SFWToggle sfw={sfw} setSfw={setSfw}></SFWToggle>
                     </li>
-                    <li className="header__text">Button Top25 Anime</li>
-                    <li className="header__text">Button Top25 Manga</li>
-                    <li className="header__text">Button Top25 Movies</li>
+                    <li className="header__text">
+                        <CurrentlyAiringToggle airing={airing} setAiring={setAiring} />
+                    </li>
+                    <li className="header__text">Favorites</li>
                 </ul>
             </nav>
             <div id="detail">

@@ -8,14 +8,16 @@ import IndividualPage from "./Containers/IndividualPage";
 
 const App = () => {
     const [sfw, setSfw] = useState(false);
+    const [airing, setAiring] = useState(false);
+    const [searchBar, setSearchBar] = useState({});
 
     const router = createBrowserRouter([
         {
-            element: <Header sfw={sfw} setSfw={setSfw} />,
+            element: <Header sfw={sfw} setSfw={setSfw} airing={airing} setAiring={setAiring} />,
             children: [
                 {
                     path: "/anime/",
-                    element: <MainPage sfw={sfw} />,
+                    element: <MainPage sfw={sfw} airing={airing} searchBar={searchBar} setSearchBar={setSearchBar} />,
                 },
                 {
                     path: "/anime/:id",

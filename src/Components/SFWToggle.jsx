@@ -10,12 +10,7 @@ const SFWToggle = ({ sfw, setSfw }) => {
             <div className="flex">
                 <h3 className="nsfw">NSFW</h3>
                 <label className="switch">
-                    <input
-                        type="checkbox"
-                        onClick={() => {
-                            handleSetSfw();
-                        }}
-                    />
+                    <input type="checkbox" onClick={handleSetSfw} />
                     <span className="slider round"></span>
                 </label>
             </div>
