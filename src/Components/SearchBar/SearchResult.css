@@ -1,6 +1,7 @@
 .search__result {
     padding-left: 0.5rem;
     color: black;
+    height: 1.5rem;
 }
 
 .search__result:hover {

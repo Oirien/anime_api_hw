@@ -6,7 +6,11 @@ const SearchResultsList = ({ searchBar }) => {
     return (
         <div className="search-results__list">
             {searchBar.map((search, i) => {
-                return <SearchResult searchResult={search.title_english} searchId={search.mal_id} key={i} />;
+                if (search.title_english || search.title) {
+                    return <SearchResult searchResult={search.title_english || search.title} searchId={search.mal_id} key={i} />;
+                } else {
+                    return null;
+                }
             })}
         </div>
     );
