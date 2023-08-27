@@ -20,7 +20,9 @@ const Header = ({ sfw, setSfw, airing, setAiring }) => {
                     <li className="header__text">
                         <CurrentlyAiringToggle airing={airing} setAiring={setAiring} />
                     </li>
-                    <li className="header__text">Favorites</li>
+                    <Link to="/anime/favorites">
+                        <li className="header__text">Favorites</li>
+                    </Link>
                 </ul>
             </nav>
             <div id="detail">

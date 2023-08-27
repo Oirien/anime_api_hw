@@ -28,6 +28,8 @@ const SearchBar = ({ setSearchBar, sfw, airing }) => {
 
     return (
         <>
+            {" "}
+            <h1 className="bouncer hero--text"> What's on your radar?</h1>
             <div className="input__wrapper">
                 <input type="text" placeholder="Type to search..." value={input} onChange={e => handleInput(e.target.value)} />
             </div>
