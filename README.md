@@ -1,6 +1,8 @@
 # weebRadar
 
 A one day react web app project to explore using API's.
+I had a pretty specific style in mind when I started the project asnd was really happy with how the styling turned out.
+If I'd had more time I would have expanded upon the functionality, including building a proper backend for the app to store user favorites etc.
 
 
 
