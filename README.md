@@ -1,8 +1,16 @@
-# React + Vite
+# weebRadar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A one day react web app project to explore using API's.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+https://github.com/Oirien/weebRadar_react_webapp/assets/136370232/44b4618f-2c93-4185-a303-d57d5987790b
+
+
+
+https://github.com/Oirien/weebRadar_react_webapp/assets/136370232/051f47f1-abf3-4d85-97d2-e747f44cb8af
+
+
+
+https://github.com/Oirien/weebRadar_react_webapp/assets/136370232/399aa570-ec23-4707-ac9c-0cf44eb6f19b
+
