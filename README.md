@@ -5,9 +5,11 @@ I had a pretty specific style in mind when I started the project asnd was really
 If I'd had more time I would have expanded upon the functionality, including building a proper backend for the app to store user favorites etc.
 
 To run the project all that is required is node then to run the following terminal commands.
+```
   npm install
+  
   npm run dev
-
+```
 
 
 https://github.com/Oirien/weebRadar_react_webapp/assets/136370232/44b4618f-2c93-4185-a303-d57d5987790b
